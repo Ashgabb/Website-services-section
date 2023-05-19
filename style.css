@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+.title h1{
+    font-size: 50px;
+    color: #222;
+    text-align: center;
+    margin-top: 50px;
+}
+.title p{
+    font-size: 20px;
+    color:#8c8c8c;
+    text-align: center;
+    margin-top: 10px;
+}
+.services-section{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: #f3f3f3;
+    transition: 0.5s ease;
+    border: 3px solid #009dff;
+}
+.card .icon{
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #009dff;
+}
+.card h2{
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #8c8c8c;
+}
+.button{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #c78585;
+    padding: 11px 15px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+.button:hover{
+    background-color: #009dff;
+    transition: 0.5s ease;
+}
+@media screen and (max-width: 940px){
+    .services-section{
+        display: flex;
+        flex-direction: column;
+    }
+     .card{
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    } 
+}
